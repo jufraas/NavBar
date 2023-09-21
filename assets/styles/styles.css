@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #d64540;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    padding: 15px 25px;
+    background-color: #d64540;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+main, section {
+    width: 100%;
+    height: 65vh;
+}
+
+#Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #40b8d6;
+}
+
+#Stack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8d40d6;
+}
+
+#Projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d64072;
+}
+
+#AboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d69a40;
+}
+
+#ContactMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #40d6b0;
+}
